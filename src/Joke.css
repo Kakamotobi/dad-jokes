@@ -1,0 +1,56 @@
+.Joke {
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #eee;
+	font-family: "Architects Daughter", cursive;
+}
+
+/* Votes */
+.Joke__vote {
+	width: 15%;
+	display: flex;
+	justify-content: center;
+}
+
+.Joke__votes {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 10px 38px rgba(0, 0, 0, 0.2), 0 10px 12px rgba(0, 0, 0, 0.1);
+	border: 2px solid grey;
+	border-radius: 50%;
+	font-size: 1.5rem;
+}
+
+.Joke__vote-btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	transition: 200ms;
+}
+
+.Joke__vote-btn.up:hover {
+	transform: translateY(-3px);
+}
+
+.Joke__vote-btn.down:hover {
+	transform: translateY(3px);
+}
+
+/* Joke */
+.Joke__text {
+	width: 75%;
+	margin: 0;
+}
+
+/* Emoji */
+.Joke__emoji {
+	width: 10%;
+	font-size: 2rem;
+	text-align: center;
+}
