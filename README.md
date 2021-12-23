@@ -8,17 +8,9 @@
 
 ![demo](dad-jokes-demo.gif)
 
-## Link
-
-Live-site URL:
-
-## My Process
-
-### Built With
-
+## Built With
 - React
 
-## What I Learned/Applied
-
+## Applied Concepts
 - React props, states, and events.
 - React lifecycle (`componentDidMount()`)
